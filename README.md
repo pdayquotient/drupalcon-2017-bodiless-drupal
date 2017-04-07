@@ -26,6 +26,8 @@ Drupal knows where the external file lives. Edit the file path on
 Line 29 of modules/bodiless_and_headless/src/Form/ContentForm.php
 ```
 
+Copy the files in the nodejs-bodiless-and-headless folder to your node.js application's root folder. The path to sample.txt is the path you need to put into line 29 referenced above.
+
 ### Prerequisites
 - node.js (v4.6.0)
 
