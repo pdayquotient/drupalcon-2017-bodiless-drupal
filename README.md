@@ -16,7 +16,7 @@ Acquia Dev Desktop Downloads
 
 ## Bodiless and Headless Example
 
-This example demonstrates an extreme case of using Drupal merely for the Form API and Permissions. The bodiless_and_headless module builds the form to edit an external file (located in the node-bodiless-and-headless directory). The file is rendered by a small node.js application.
+This example demonstrates an extreme case of using Drupal merely for the Form API and Permissions. The bodiless_and_headless module builds the form to edit an external file (located in the node-bodiless-headless-drupal directory). The file is rendered by a small node.js application.
 
 ```
 Before installing the module
@@ -26,7 +26,7 @@ Drupal knows where the external file lives. Edit the file path on
 Line 29 of modules/bodiless_and_headless/src/Form/ContentForm.php
 ```
 
-Copy the files in the nodejs-bodiless-and-headless folder to your node.js application's root folder. The path to sample.txt is the path you need to put into line 29 referenced above.
+Copy the files in the nodejs-bodiless-headless-drupal folder to your node.js application's root folder. The path to sample.txt is the path you need to put into line 29 referenced above.
 
 ### Prerequisites
 - node.js (v4.6.0)
