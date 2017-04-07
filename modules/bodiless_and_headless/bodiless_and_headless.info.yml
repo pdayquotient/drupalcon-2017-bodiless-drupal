@@ -1,0 +1,6 @@
+name: Bodiless and Headless Example
+description: Edits a text file outside of Drupal, which is served by a node.js application.
+package: Bodiless Drupal Examples - DrupalCon Baltimore 2017 (Quotient, Inc.)
+
+type: module
+core: 8.x

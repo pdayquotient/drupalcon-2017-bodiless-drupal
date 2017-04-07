@@ -1,0 +1,4 @@
+edit bodiless headless:
+  title: 'Edit Bodiless and Headless content'
+  description: 'Edit a text file stored outside of Drupal, which is served by a node.js application.'
+  restrict access: TRUE

@@ -1,0 +1,7 @@
+bodiless_and_headless.edit:
+  path: '/admin/bodiless_and_headless/edit'
+  defaults:
+    _controller: '\Drupal\bodiless_and_headless\Controller\BodilessAndHeadlessController::editBodilessAndHeadless'
+    _title: 'Bodiless and Headless: Edit Content'
+  requirements:
+    _permission: 'edit bodiless headless'
