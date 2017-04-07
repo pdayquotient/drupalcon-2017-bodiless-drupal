@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Bodiless Drupal Showcase  
+DrupalCon: Baltimore 2017  
+_Sponsored by [Quotient, Inc.](http://www.quotient-inc.com)_
 
-You can use the [editor on GitHub](https://github.com/pdayquotient/drupalcon-2017-bodiless-drupal/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Environment Setup
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+All examples were developed against Drupal 8.3 using Acquia Dev Desktop Version 2, built on March 23, 2017.
 
-### Markdown
+Acquia Dev Desktop Downloads  
+- [Mac](https://dev.acquia.com/sites/default/files/downloads/dev-desktop/AcquiaDevDesktop-2-2017-03-23.dmg)  
+- [Windows](https://dev.acquia.com/sites/default/files/downloads/dev-desktop/AcquiaDevDesktop-2-2017-03-23.exe)  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Headless Example
 
-```markdown
-Syntax highlighted code block
+## Bodiless Example
 
-# Header 1
-## Header 2
-### Header 3
+## Bodiless and Headless Example
 
-- Bulleted
-- List
+### Prerequisites
+- node.js (v4.6.0)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pdayquotient/drupalcon-2017-bodiless-drupal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
