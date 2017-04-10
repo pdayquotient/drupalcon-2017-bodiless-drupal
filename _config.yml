@@ -1,3 +1,5 @@
-theme: jekyll-theme-cayman
+---
 title: Bodiless Drupal
-description: Modules and code in support of DrupalCon: Baltimore 2017
+---
+
+theme: jekyll-theme-cayman
