@@ -3,7 +3,7 @@ var fs = require("fs");
 
 http.createServer(function(request, response) {
   // HTTP OK header
-  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.writeHead(200, {'Content-Type': 'text/html'});
 
   // Read our sample file
   fs.readFile('./sample.txt', 'utf8', function(err, data) {
