@@ -23,10 +23,10 @@ Before installing the module
 ----------------------------
 You will need to make a minor modification to the code to ensure
 Drupal knows where the external file lives. Edit the file path on
-Line 29 of modules/bodiless_and_headless/src/Form/ContentForm.php
+Line 20 of modules/bodiless_and_headless/src/Form/ContentForm.php
 ```
 
-Copy the files in the nodejs-bodiless-headless-drupal folder to your node.js application's root folder. The path to sample.txt is the path you need to put into line 29 referenced above.
+Copy the files in the nodejs-bodiless-headless-drupal folder to your node.js application's root folder. The path to sample.txt is the path you need to put into line 20 referenced above.
 
 ### Prerequisites
 - node.js (v4.6.0)
