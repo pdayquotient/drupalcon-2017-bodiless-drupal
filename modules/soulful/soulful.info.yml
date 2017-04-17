@@ -1,0 +1,6 @@
+name: Soulful Example
+description: Retrieve data through a Drupal route, which is served from a standalone PHP script.
+package: Bodiless Drupal Examples - DrupalCon Baltimore 2017 (Quotient, Inc.)
+
+type: module
+core: 8.x

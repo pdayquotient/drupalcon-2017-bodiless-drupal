@@ -1,0 +1,6 @@
+name: Bodiless Example
+description: Edits a text file outside of Drupal, which is used by Drupal to create a themed page.
+package: Bodiless Drupal Examples - DrupalCon Baltimore 2017 (Quotient, Inc.)
+
+type: module
+core: 8.x

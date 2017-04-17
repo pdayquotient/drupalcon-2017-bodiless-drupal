@@ -1,0 +1,7 @@
+bodiless.content:
+  path: '/bodiless'
+  defaults:
+    _controller: '\Drupal\bodiless\Controller\BodilessController::content'
+    _title: 'Bodiless Drupal!'
+  requirements:
+    _permission: 'access content'

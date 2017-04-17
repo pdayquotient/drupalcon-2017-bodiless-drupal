@@ -1,0 +1,7 @@
+soulful.content:
+  path: '/soulful'
+  defaults:
+    _controller: '\Drupal\soulful\Controller\SoulfulController::content'
+    _title: 'Does not matter the title'
+  requirements:
+    _permission: 'access content'
