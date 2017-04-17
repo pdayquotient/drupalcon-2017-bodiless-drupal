@@ -1,0 +1,5 @@
+# Add a tab to the admin content page for easier access
+bodiless_and_headless.admin:
+  route_name: bodiless_and_headless.edit
+  title: Bodiless & Headless Content
+  base_route: system.admin_content
