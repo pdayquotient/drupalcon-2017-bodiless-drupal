@@ -5,3 +5,11 @@ bodiless_and_headless.edit:
     _title: 'Bodiless and Headless: Edit Content'
   requirements:
     _permission: 'edit bodiless headless'
+
+bodiless_and_headless.content:
+  path: '/headless'
+  defaults:
+    _controller: '\Drupal\bodiless_and_headless\Controller\BodilessAndHeadlessController::content'
+    _title: 'Does not matter the title'
+  requirements:
+    _permission: 'view headless content'

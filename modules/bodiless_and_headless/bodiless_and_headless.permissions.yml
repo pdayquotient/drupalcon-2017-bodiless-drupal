@@ -2,3 +2,8 @@ edit bodiless headless:
   title: 'Edit Bodiless and Headless content'
   description: 'Edit a text file stored outside of Drupal, which is served by a node.js application.'
   restrict access: TRUE
+
+view headless content:
+  title: 'View Headless content'
+  description: 'View headless content stored in a text file stored outside of Drupal, accessed via a Drupal route.'
+  restrict access: TRUE
