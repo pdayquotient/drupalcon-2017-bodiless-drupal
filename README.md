@@ -74,9 +74,11 @@ Line 20 of modules/bodiless_and_headless/src/Form/ContentForm.php
 - Front end: [nodejs-url]/app.js
 - Admin (to edit external data file): [drupal-url]/admin/bodiless_and_headless/edit
 
-# Soulful Example
+# Diving Deeper
 
-This example demonstrates using Drupal's routing system to pass content through Drupal to an external PHP script. The PHP script (our external application) calls a URL routed by Drupal, which returns a Symfony Response object after reading an external file for its contents.
+## Soulful Example
+
+This example demonstrates using Drupal's routing system to pass content through Drupal to an external PHP script. The PHP script (our external application) calls a URL routed by Drupal, which returns a Symfony Response object after reading an external file for its contents. We call this soulful because you are removing everything but Drupal's soul (routing, security, RESTful Web Service API, etc.).
 
 ## Demo  
 - Front end: [drupal-url]/soulful.php
