@@ -2,6 +2,27 @@ DrupalCon: Baltimore 2017
 _Sponsored by [Quotient, Inc.](http://www.quotient-inc.com)_  
 [Visit our DrupalCon: Baltimore 2017 page](http://www.quotient-inc.com/drupalcon)
 
+**Quick Recap:**  
+_FRONT END DRUPAL_
+| |Bodiless|Headless|Bodiless & Headless|
+|---|---|---|---|
+|Content| |&#10004;| |
+|Display|&#10004;| | |
+|Logic|&#10004;|&#10004;| |
+|Security|&#10004;|&#10004;| |
+
+_BACK END DRUPAL_
+| |Bodiless|Headless|Bodiless & Headless|
+|---|---|---|---|
+|Content| |&#10004;|x/&#10004;|
+|Display|&#10004;|&#10004;|&#10004;|
+|Logic|&#10004;|&#10004;|&#10004;|
+|Security|&#10004;|&#10004;|&#10004;|
+
+- _Bodiless Drupal:_ Drupal owns the display; does not own the data  
+- _Headless Drupal:_ Drupal owns the data; does not own the display
+- _Bodiless & Headless:_ Drupal does not own the data; does not own the display
+
 # Environment Setup
 
 All examples were developed against Drupal 8.3 using Acquia Dev Desktop Version 2, built on March 23, 2017.
