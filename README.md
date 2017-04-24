@@ -6,8 +6,8 @@ _Sponsored by [Quotient, Inc.](http://www.quotient-inc.com)_
 _FRONT END DRUPAL_
 
 |---
-| / | Bodiless | Headless | Bodiless & Headless |
-|---|---|---|---|
+| | Bodiless | Headless | Bodiless & Headless |
+|---|:---:|:---:|:---:|
 |Content| |&#10004;| |
 |Display|&#10004;| | |
 |Logic|&#10004;|&#10004;| |
@@ -16,8 +16,8 @@ _FRONT END DRUPAL_
 _BACK END DRUPAL_
 
 |---
-| / | Bodiless | Headless | Bodiless & Headless |
-|---|---|---|---|
+| | Bodiless | Headless | Bodiless & Headless |
+|---|:---:|:---:|:---:|
 |Content| |&#10004;|x/&#10004;|
 |Display|&#10004;|&#10004;|&#10004;|
 |Logic|&#10004;|&#10004;|&#10004;|
