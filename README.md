@@ -19,7 +19,7 @@ _BACK END DRUPAL_
 |---
 | | Bodiless | Headless | Bodiless & Headless |
 |-|:-:|:-:|:-:|
-|Content| |&#10004;|&#x2717 / &#10004;|
+|Content| |&#10004;|&#x2717; / &#10004;|
 |Display|&#10004;|&#10004;|&#10004;|
 |Logic|&#10004;|&#10004;|&#10004;|
 |Security|&#10004;|&#10004;|&#10004;|
