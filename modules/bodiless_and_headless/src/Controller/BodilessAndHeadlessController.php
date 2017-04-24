@@ -18,7 +18,7 @@ class BodilessAndHeadlessController extends ControllerBase {
   /**
    * @var string $filepath Filepath to the static sample file
    */
-  private $filepath = '/Users/quoadmin/_http/opa_d8/nodejs-bodiless-headless-drupal/sample.txt';
+  private $filepath = '';
 
   /**
    * The form builder.
