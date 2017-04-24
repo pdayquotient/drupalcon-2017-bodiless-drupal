@@ -4,7 +4,9 @@ _Sponsored by [Quotient, Inc.](http://www.quotient-inc.com)_
 
 **Quick Recap:**  
 _FRONT END DRUPAL_
-| |Bodiless|Headless|Bodiless & Headless|
+
+|---
+| / | Bodiless | Headless | Bodiless & Headless |
 |---|---|---|---|
 |Content| |&#10004;| |
 |Display|&#10004;| | |
@@ -12,7 +14,9 @@ _FRONT END DRUPAL_
 |Security|&#10004;|&#10004;| |
 
 _BACK END DRUPAL_
-| |Bodiless|Headless|Bodiless & Headless|
+
+|---
+| / | Bodiless | Headless | Bodiless & Headless |
 |---|---|---|---|
 |Content| |&#10004;|x/&#10004;|
 |Display|&#10004;|&#10004;|&#10004;|
