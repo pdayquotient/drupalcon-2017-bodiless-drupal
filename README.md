@@ -1,5 +1,6 @@
 DrupalCon: Baltimore 2017  
-_Sponsored by [Quotient, Inc.](http://www.quotient-inc.com)_
+_Sponsored by [Quotient, Inc.](http://www.quotient-inc.com)_  
+[Visit our DrupalCon: Baltimore 2017 page](http://www.quotient-inc.com/drupalcon)
 
 # Environment Setup
 
@@ -8,6 +9,16 @@ All examples were developed against Drupal 8.3 using Acquia Dev Desktop Version 
 Acquia Dev Desktop Downloads  
 - [Mac](https://dev.acquia.com/sites/default/files/downloads/dev-desktop/AcquiaDevDesktop-2-2017-03-23.dmg)  
 - [Windows](https://dev.acquia.com/sites/default/files/downloads/dev-desktop/AcquiaDevDesktop-2-2017-03-23.exe)  
+
+**PLEASE NOTE:**  The examples below use a text file to demonstrate an external data source for Drupal and non-Drupal applications. In the real world, this text file would most likely be replaced by a database, RESTful API, JSON file, XML file, CSV file, or other structured and unstructured files. You would also want to add in validation, stronger security measures, and error checking. These examples are not exhaustive solutions - they simply demonstrate the concept of Bodiless Drupal.
+
+## Prerequisites
+- node.js (v4.6.0)
+
+## Code
+- Move the files in [repo]/nodejs-bodiless-headless-drupal to your node.js application root
+- Copy the folders under [repo]/modules to your Drupal 8 modules folder
+- Copy the [repo]/soulful.php file to your root Drupal 8 folder
 
 # Bodiless Example
 
@@ -20,6 +31,9 @@ You will need to make a minor modification to the code to ensure
 Drupal knows where the external file lives. Edit the file path on
 Line 17 of modules/bodiless/src/Controller/BodilessController.php
 ```
+## Demo  
+- Front end: [drupal-url]/bodiless
+- Admin (to edit external data file): [drupal-url]/admin/bodiless_and_headless/edit
 
 # Bodiless & Headless Example
 
@@ -32,12 +46,13 @@ You will need to make a minor modification to the code to ensure
 Drupal knows where the external file lives. Edit the file path on
 Line 20 of modules/bodiless_and_headless/src/Form/ContentForm.php
 ```
-
-Copy the files in the nodejs-bodiless-headless-drupal folder to your node.js application's root folder. The path to sample.txt is the path you need to put into line 20 referenced above.
-
-## Prerequisites
-- node.js (v4.6.0)
+## Demo  
+- Front end: [nodejs-url]/app.js
+- Admin (to edit external data file): [drupal-url]/admin/bodiless_and_headless/edit
 
 # Soulful Example
 
-This example makes use of only Drupal's routing.
+This example demonstrates using Drupal's routing system to pass content through Drupal to an external PHP script. The PHP script (our external application) calls a URL routed by Drupal, which returns a Symfony Response object after reading an external file for its contents.
+
+## Demo  
+- Front end: [drupal-url]/soulful.php
