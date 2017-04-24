@@ -10,8 +10,15 @@ use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Form\FormBuilderInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+
 
 class BodilessAndHeadlessController extends ControllerBase {
+
+  /**
+   * @var string $filepath Filepath to the static sample file
+   */
+  private $filepath = '/Users/quoadmin/_http/opa_d8/nodejs-bodiless-headless-drupal/sample.txt';
 
   /**
    * The form builder.
@@ -41,6 +48,20 @@ class BodilessAndHeadlessController extends ControllerBase {
 
   public function editBodilessAndHeadless(Request $request) {
     return $this->formBuilder->getForm('\Drupal\bodiless_and_headless\Form\ContentForm');
+  }
+
+
+  /**
+   * {@inheritdoc}
+   */
+  public function content() {
+    // Get the file contents
+    $content = file_get_contents($this->filepath);
+
+    // Generic Symfony Response Object to bypass templating
+    $response = new Response();
+    $response->setContent($content);
+    return $response;
   }
 
 }
