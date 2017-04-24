@@ -13,6 +13,7 @@ _FRONT END DRUPAL_
 |Display|&#10004;| | |
 |Logic|&#10004;|&#10004;| |
 |Security|&#10004;|&#10004;| |
+|===
 
 _BACK END DRUPAL_
 
@@ -23,10 +24,7 @@ _BACK END DRUPAL_
 |Display|&#10004;|&#10004;|&#10004;|
 |Logic|&#10004;|&#10004;|&#10004;|
 |Security|&#10004;|&#10004;|&#10004;|
-
-- _Bodiless Drupal:_ Drupal owns the display; does not own the data  
-- _Headless Drupal:_ Drupal owns the data; does not own the display
-- _Bodiless & Headless:_ Drupal does not own the data; does not own the display
+|===
 
 # Environment Setup
 
